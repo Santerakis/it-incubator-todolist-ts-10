@@ -76,6 +76,7 @@ function AppWithReducer() {
         dispatchToTasks(action)
     }
 
+
     function changeTodolistTitle(id: string, title: string) {
         dispatchToTodolists(changeTodolistTitleAC(id, title))
     }
